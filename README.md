@@ -2,7 +2,7 @@
 
 > LLM-powered resume-job fit analyser built with Groq (Llama 3), LangChain, and Streamlit
 
-[![Live App](https://img.shields.io/badge/Live%20App-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit)]https://ai-job-description-analyser-214.streamlit.app
+[![Live App](https://img.shields.io/badge/Live%20App-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit)](https://ai-job-description-analyser-214.streamlit.app)
 [![Python](https://img.shields.io/badge/Python-3.13-3776AB?style=for-the-badge&logo=python)](https://python.org)
 [![Groq](https://img.shields.io/badge/Groq-LLaMA3-F55036?style=for-the-badge)](https://groq.com)
 
