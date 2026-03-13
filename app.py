@@ -69,7 +69,11 @@ st.markdown('<div class="hero-title">🎯 AI Job Description Analyser</div>',
 st.markdown('<div class="hero-sub">Upload your resume & paste a job description — get instant AI-powered fit analysis</div>', unsafe_allow_html=True)
 
 # ── GROQ CLIENT
-client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+try:
+    api_key = st.secrets["GROQ_API_KEY"]
+except:
+    api_key = os.getenv("GROQ_API_KEY")
+client = Groq(api_key=api_key)
 
 # ── PDF EXTRACTOR
 
